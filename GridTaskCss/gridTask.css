@@ -14,7 +14,7 @@
   grid-row-gap: 1rem;
 }
 
-#header {
+header {
   background-color: #d10000;
   padding: 1.5rem;
   border-bottom-left-radius: 15px;
@@ -41,13 +41,13 @@
   margin: 5px 10px;
 }
 
-#main {
+main {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   grid-gap: 5px;
   grid-area: main;
 }
-#footer {
+footer {
   background-color: black;
   color: white;
   padding: 10px;
@@ -59,7 +59,7 @@
 }
 
 @media (max-width: 500px) {
-  #main {
+  main {
     display: grid;
     grid-template-columns: repeat(1, 1fr);
   }
