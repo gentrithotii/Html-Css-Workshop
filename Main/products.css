@@ -1,0 +1,32 @@
+#products {
+  margin: 20px;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 5px;
+}
+
+.product {
+  max-width: 600px;
+  padding: 10px;
+  border: solid #ddd;
+  margin: auto;
+  border-radius: 10px;
+  margin-bottom: 20px;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 5px;
+  margin-top: 15px;
+}
+
+#h2-green {
+  color: #4caf50;
+  text-align: center;
+  text-align: center;
+}
+
+.email-Field {
+  margin-bottom: 15px;
+}

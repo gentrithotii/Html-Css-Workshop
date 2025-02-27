@@ -1,0 +1,13 @@
+.product-Button {
+  background-color: #4caf50;
+  padding: 10px;
+  border-radius: 7px;
+  color: #fff;
+  border: none;
+}
+
+.product-Button:hover {
+  background-color: #65d465;
+  cursor: pointer;
+  transition: 15ms;
+}

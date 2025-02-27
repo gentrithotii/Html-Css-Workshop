@@ -4,7 +4,14 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Marketplace App</title>
+
+    <!--CSS-->
+    <link rel="stylesheet" href="Main/button.css" />
+    <link rel="stylesheet" href="Main/main.css" />
+    <link rel="stylesheet" href="Main/products.css" />
     <link rel="stylesheet" href="general.css" />
+    <link rel="stylesheet" href="Header/header.css" />
+    <link rel="stylesheet" href="Footer/footer.css" />
   </head>
   <body>
     <header>
@@ -14,9 +21,15 @@
 
     <main>
       <section id="products">
+        <h2 id="h2-green">Featured products</h2>
         <div class="product">
           <h3>Samsung TV</h3>
-          <img />
+          <img
+            alt="A cool OLED TV no joke"
+            src="https://i.redd.it/9qlbmkyc9q9a1.jpg"
+            width="600px"
+            height="400px"
+          />
           <p>This is a very cool oled tv</p>
           <ul>
             <li>Price</li>
@@ -26,12 +39,17 @@
           <div class="email-Field">
             <label>Email: tes1@test1.com</label>
           </div>
-          <button>View Details</button>
+          <button class="product-Button">View Details</button>
         </div>
 
         <div class="product">
           <h3>Dai Phone</h3>
-          <img />
+          <img
+            alt="A cool OLED TV no joke"
+            src="https://img.freepik.com/premium-photo/futuristic-modern-transparent-glass-phone-technology-concept-6g-high-speed-network-mobile-internet-future-slim-transparent-smartphone-hand-dark-tone-background_36367-1434.jpg"
+            width="600px"
+            height="400px"
+          />
           <p>Send calls to other dimensions with this amazing fast phone</p>
           <ul>
             <li>Price</li>
@@ -41,7 +59,7 @@
           <div class="email-Field">
             <label>Email: tes2@test2.com</label>
           </div>
-          <button>View Details</button>
+          <button class="product-Button">View Details</button>
         </div>
       </section>
     </main>
