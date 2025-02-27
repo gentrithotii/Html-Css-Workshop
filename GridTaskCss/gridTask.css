@@ -62,13 +62,9 @@
   #main {
     display: grid;
     grid-template-columns: repeat(1, 1fr);
-    grid-gap: 5px;
-    grid-area: main;
   }
 
   .link-styling a {
-    text-decoration: none;
-    color: white;
     padding: 0.3rem 0.3rem;
   }
 }
